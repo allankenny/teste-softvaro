@@ -1,6 +1,6 @@
 import {useState, useEffect} from 'react';
 import validate from './Cpf';
-import './styles.css';
+// import './styles.css';
 
 export function Form(){
     const [cpf, setCpf] = useState('');
