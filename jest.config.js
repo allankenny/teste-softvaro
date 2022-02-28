@@ -6,7 +6,4 @@ module.exports = {
       ".+\\.(css|styl|less|sass|scss)$": "jest-transform-css",
     },
     testEnvironment: "jsdom",
-    // moduleNameMapper: {
-    //   '\\.(css|less)$': '<rootDir>styleMock.js',
-    // },
 };

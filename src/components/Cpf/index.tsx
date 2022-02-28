@@ -20,9 +20,11 @@ export function checkDigit(numbers: string): number {
 export function cpfIsValid(cpf: string): boolean {
     const cpfOnlyNumber = cpf;
 
-    if (!cpfOnlyNumber) {
+    if (!cpfOnlyNumber) 
         return false;
-    }
+ 
+    if (cpf.length !== 11 || !!cpf.match(/(\d)\1{10}/)) 
+        return false
 
     var numbers = cpfOnlyNumber.substr(0, 9);
     numbers += checkDigit(numbers);
