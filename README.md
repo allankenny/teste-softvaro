@@ -1,2 +1,2 @@
-# teste-softvaro
+# Validador CPF TypeScript
 Validador CPF
